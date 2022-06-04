@@ -33,22 +33,22 @@
     }
 }
 .jump {
-    animation: jump 1s linear;
+    animation: jump 0.5s linear;
 }
 @keyframes jump {
     0% {
-        top: 150px;
+        top: 120px;
     }
     30% {
-        top: 130px;
+        top: 100px;
     }
     50% {
         top: 80px;
     }
     80% {
-        top: 130px;
+        top: 100px;
     }
     100% {
-        top: 150px;
+        top: 120px;
     }
 }
